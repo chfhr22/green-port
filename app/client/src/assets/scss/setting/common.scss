@@ -1,0 +1,17 @@
+body {
+    background-color: var(--mainBg);
+    overflow-x: hidden;
+}
+
+.green {
+	color: var(--green);
+}
+.small {
+    font-size: 16px;
+    font-family: 'Abel';
+    color: #A3957F;
+    margin-bottom: 3%;
+    letter-spacing: .51vw;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
