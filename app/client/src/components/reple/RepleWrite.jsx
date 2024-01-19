@@ -43,7 +43,7 @@ const RepleWrite = () => {
         />
 
         <input
-          type="text"
+          type="password"
           className="password"
           name="replePw"
           id="replePw"

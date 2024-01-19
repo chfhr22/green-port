@@ -19,6 +19,10 @@
       .left {
         width: 60%;
 
+        @media(max-width: 580px){
+          width: 100%;
+        }
+
         .work__text {
           font-size: 3vw;
           font-family: var(--gmarket);
@@ -37,6 +41,10 @@
             top: -2.5vw;
           }
 
+          .kor {
+            font-size: 1.5vw;
+          }
+
         }
 
         .work__info {
@@ -45,6 +53,10 @@
           a {
             display: block;
             font-family: var(--abel);
+
+            @media(max-width: 580px){
+              font-size: 2vw;
+            }
           }
         }
       }
@@ -53,18 +65,39 @@
         width: 35%;
         height: 100%;
 
+        @media(max-width: 580px){
+          display: none;
+        }
+
         .work__img {
-          width: 400px;
-          height: 234px;
+          width: 500px;
+          height: 290px;
           display: flex;
           align-items: center;
           justify-content: center;
           overflow: hidden;
 
+          @media(max-width: 1600px){
+            width: 500px;
+            height: 293px;
+          }
+          @media(max-width: 1400px){
+            width: 400px;
+          height: 234px;
+          }
+          @media(max-width: 1200px){
+            width: 300px;
+            height: 175px;
+          }
+          @media(max-width: 900px){
+            width: 200px;
+            height: 117px;
+          }
+
           img {
             width: 100%;
             background-position: center center;
-            background-size: contain;
+            background-size: cover;
             
           }
         }

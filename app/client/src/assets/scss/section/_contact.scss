@@ -10,12 +10,16 @@
         display: flex;
 
         ul {
-            margin-right: 80px;
+            margin-right: 5rem;
 
             li {
                 line-height: 1.8;
-                padding-left: 20px;
+                padding-left: 1.2rem;
                 position: relative;
+
+                @media(max-width: 1100px){
+                    font-size: 1.3vw;
+                }
 
                 &::before {
                     content: '';
